@@ -1,0 +1,22 @@
+{
+  "56b9a0d3264318e4191e0d7be13ecc1b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d15c0e28ef795783",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1611052329356,
+        "stop" : 1611052379509,
+        "duration" : 50153
+      }
+    } ]
+  }
+}

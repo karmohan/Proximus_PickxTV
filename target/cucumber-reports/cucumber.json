@@ -1,0 +1,163 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "The user opens the PickxTV app and login to Pickx app",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2678398000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the PickxTV application",
+            "match": {
+              "location": "com.qa.stepdefinations.Signin_Page.user_opens_the_pickxtv_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1421288500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The User selects the environment",
+            "match": {
+              "location": "com.qa.stepdefinations.Signin_Page.the_user_selects_the_environment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9635908200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select the login option",
+            "match": {
+              "location": "com.qa.stepdefinations.Signin_Page.user_select_the_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3545408700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.qa.stepdefinations.Login_Page.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1763265200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The User enters credentials",
+            "match": {
+              "location": "com.qa.stepdefinations.Login_Page.the_user_enters_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8876189700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User successfully log in to the Pickx app",
+            "match": {
+              "location": "com.qa.stepdefinations.Login_Page.user_successfully_login_to_pickx_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-19T12:03:17.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28680845500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.stepdefinations.Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User verify logout option is available on the settings page",
+        "description": "",
+        "id": "login-to-pickx-app;user-verify-logout-option-is-available-on-the-settings-page",
+        "after": [
+          {
+            "result": {
+              "duration": 755489200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.stepdefinations.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 398934500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user navigates to the settings page",
+            "match": {
+              "location": "com.qa.stepdefinations.Setting_page.the_user_navigates_to_the_settings_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1561396100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user validates the logout button",
+            "match": {
+              "location": "com.qa.stepdefinations.Setting_page.the_user_validates_the_logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1070368500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user navigates to the home page",
+            "match": {
+              "location": "com.qa.stepdefinations.Setting_page.the_user_navigates_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Pickx app",
+    "description": "",
+    "id": "login-to-pickx-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/qa/features/Feature.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "The user opens the PickxTV app and logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7929147500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the PickxTV application",
+            "match": {
+              "location": "com.qa.stepdefinations.Signin_Page.user_opens_the_pickxtv_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1378060600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The User selects the environment",
+            "match": {
+              "location": "com.qa.stepdefinations.Signin_Page.the_user_selects_the_environment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16924873900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select the login option",
+            "match": {
+              "location": "com.qa.stepdefinations.Signin_Page.user_select_the_login_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-19T04:47:01.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24417273000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.stepdefinations.Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "The user successfully login to Pickx app",
+        "description": "",
+        "id": "login-to-pickx-app;the-user-successfully-login-to-pickx-app",
+        "after": [
+          {
+            "result": {
+              "duration": 952937700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.stepdefinations.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-PG24O8R\u0027, ip: \u0027192.168.1.100\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:\\Users\\91805\\OneDrive\\Des..., appActivity: be.belgacom.mobile.tveveryw..., appPackage: be.belgacom.mobile.tveveryw..., automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\\Users\\91805\\OneDrive\\Des..., appActivity: be.belgacom.mobile.tveveryw..., appPackage: be.belgacom.mobile.tveveryw..., automationName: uiautomator2, deviceName: Android, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: ed413ecc-b0d4-415a-ac86-2acaec6f64cf\n*** Element info: {Using\u003daccessibility id, value\u003duserName}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)\r\n\tat io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat com.qa.screens.Login_Screen.getUser_name_tab(Login_Screen.java:23)\r\n\tat com.qa.stepdefinations.Login_Page.user_is_on_login_page(Login_Page.java:42)\r\n\tat ✽.User is on the login page(file:///C:/Users/91805/OneDrive/Desktop/pickx/Proximus_pickxTv/src/test/java/com/qa/features/Feature.feature:9)\r\n",
+              "duration": 15062991200,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.qa.stepdefinations.Login_Page.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "The User enters credentials",
+            "match": {
+              "location": "com.qa.stepdefinations.Login_Page.the_user_enters_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User successfully log in to the Pickx app",
+            "match": {
+              "location": "com.qa.stepdefinations.Login_Page.user_successfully_login_to_pickx_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Pickx app",
+    "description": "",
+    "id": "login-to-pickx-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/qa/features/Feature.feature",
+    "tags": []
+  }
+]
